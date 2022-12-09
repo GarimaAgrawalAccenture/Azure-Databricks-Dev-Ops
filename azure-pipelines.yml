@@ -56,7 +56,7 @@ parameters:
 - name: RESOURCE_MANAGER_CONNECTION
   displayName: Azure Pipeline databricks
   type: string
-  default: 'mlopsDatabricksDevopsAction (2c05dd14-2398-4d24-8770-9058ecf30304)'
+  default: 'Azure Pipeline databricks (2c05dd14-2398-4d24-8770-9058ecf30304)'
 
 # Inialize the system
 # Note: We only want to run the KeyVault ARM template once.  If you keep re-running, then you will OVERWRITE your values
